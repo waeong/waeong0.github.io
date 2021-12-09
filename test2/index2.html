@@ -1,0 +1,146 @@
+<!DOCTYPE html> <!--22161036 윤채영-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>sbs.drama.com</title>
+    <style>
+      body{
+        padding:0;
+        margin : 0;
+        background-color : #F0E7E1;
+        font-family: DX유니고딕 230;
+      }
+      a{
+        text-decoration: none;
+      }
+      .contents{
+        text-align: center;
+      }
+      .homeLogo>a>img {
+        display : block;
+        margin : 0;
+        width : 100%;
+      }
+      .mainMenu {
+        background-color : #261013;
+        color : white;
+        font-weight: 600; <!--글자 두께 수치-->
+      }
+      .mainMenu>ul {
+        margin : auto;
+        padding : 0;
+        width : 50%;
+        list-style : none;
+        display : flex;
+        justify-content: space-between; <!--flex에서 주로 사용 요소들이 자동으로 정렬-->
+        text-align : center;
+        box-sizing : border-box;
+      }
+      .music {
+        text-align: center;
+      }
+      .mainMenu>ul>li>a {
+        display : inline-block;
+        width: 100%;
+        height: 70px;
+        font-size: 22px;
+        color: inherit;
+        line-height: 70px;
+        box-sizing: border-box;
+      }
+      li {
+        list-style-type: none;
+      }
+      #contents {
+        width: 1140px;
+        height: 300px;
+        margin: 0 auto;
+      }
+      #sub_menu {
+        width: 234px;
+        float: left;
+        margin-top: 25px;
+        border: solid 1px #cccccc;
+        text-decoration : none;
+        background-color: white;
+      }
+      #sub_menu h3 {
+        font-size: 18px;
+        color: #ffffff;
+        padding: 12px;
+        background-color: #261013;
+      }
+      #sub_menu li {
+        padding: 10px;
+        border-bottom: dotted 1px #cccccc;
+        text-decoration : none;
+      }
+      #sub_menu a {
+        text-decoration : none;
+        color: inherit;
+      }
+      #main_contents {
+        width: 880px;
+        float: right;
+        margin-top: 25px;
+        margin-bottom: 50px;
+      }
+      #main_contents h3 {
+        font-size: 22px;
+        padding-bottom: 8px;
+        border-bottom: solid 1px #261013;
+      }
+      #main_contents p {
+        margin-top: 20px;
+        line-height: 180%;
+      }
+      #main_contents #figure {
+        margin-top: 30px;
+        text-align: center;
+      }
+      #main_contents li {
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="homeLogo"><!--홈으로 이동함-->
+      <a href="index.html"><img src='./img/main.jpg'></a>
+    </div>
+    <div class="mainMenu"><!--메인메뉴임-->
+      <ul>
+        <li><a href="index2.html">Data</a></li>
+        <li><a href="index3.html">Ost</a></li>
+        <li><a href="index4.html">Vedio</a></li>
+      </ul>
+    </div>
+    <section id='contents'>
+    <nav id='sub_menu'>
+      <h3>Data</h3>
+      <ul>
+        <li><a href="index2.html">드라마 소개</a></li>
+        <li><a href="sub1-2.html">주요 인물</a></li>
+        <li><a href="sub1-3.html">보러 가기</a></li>
+      </ul>
+    </nav>
+    <div id='main_contents'>
+      <h3>드라마 소개</h3>
+      <div>
+      <h4>기본 정보</h4>
+      <p>편성채널: SBS <br>
+        방영기간 :2016.08.29. ~ 2016.11.01. 20부작 <br>
+        시청률: 11.3% 닐슨코리아 <br>
+        장르: 사극 드라마 </p>
+        <img src='img/percent.png'>
+        <h4>줄거리</h4>
+        <p>달그림자가 태양을 검게 물들인 날. 상처 입은 짐승 같은 사내, 4황자 '왕소'와
+           21세기 여인 '고하진'의 영혼이 미끄러져 들어간 고려 소녀 '해수'가 천 년의
+           시공간을 초월해 만난다.</p>
+      </div>
+      </div>
+      </section>
+  </body>
+  <footer>
+    <img src='img/footer.png'  >
+  </footer>
+</html>

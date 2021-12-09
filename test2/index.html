@@ -1,0 +1,79 @@
+<!DOCTYPE html> <!--22161036 윤채영-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>sbs.drama.com</title>
+    <style>
+      body{
+        padding:0;
+        margin : 0;
+        background-color : #F0E7E1;
+        font-family: DX유니고딕 230;
+      }
+      a{
+        text-decoration: none;
+      }
+      .contents{
+        margin:20px 50px 20px 50px;
+        text-align: center;
+      }
+      .homeLogo>a>img {
+        display : block;
+        margin : 0;
+        width : 100%;
+      }
+      .mainMenu {
+        background-color : #261013;
+        color : white;
+        font-weight: 600; <!--글자 두께 수치-->
+      }
+
+      .mainMenu>ul {
+        margin : auto;
+        padding : 0;
+        width : 50%;
+        list-style : none;
+        display : flex;
+        justify-content: space-between; <!--flex에서 주로 사용 요소들이 자동으로 정렬-->
+        text-align : center;
+        box-sizing : border-box;
+      }
+
+      .music {
+        text-align: center;
+      }
+      ul>li>a {
+        display : inline-block;
+        width: 100%;
+        height: 70px;
+        font-size: 22px;
+        color: inherit;
+        line-height: 70px;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="homeLogo"><!--홈으로 이동함-->
+      <a href="index.html"><img src='./img/main.jpg'></a>
+    </div>
+    <div class="mainMenu"><!--메인메뉴임-->
+      <ul>
+        <li><a href="index2.html">Data</a></li>
+        <li><a href="index3.html">Ost</a></li>
+        <li><a href="index4.html">Vedio</a></li>
+      </ul>
+    </div>
+    <div class="contents">
+      <div class="music">
+        <audio src="./mp3/bgm.mp3" controls autoplay></audio>
+        <p>♪bgm_로꼬, 펀치 (Loco, Punch) - Say Yes</p>
+      </div>
+      <br>
+        <img src='img/main_poster.jpg'>
+    </div>
+  </body>
+  <footer>
+    <img src='img/footer.png'  >
+  </footer>
+</html>
